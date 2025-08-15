@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lost Pet Profile</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🐾 Lost Pet Profile</h1>
+    <p class="subtitle">If you found this pet, please contact the owner below.</p>
+    
+    <div class="card">
+      <h2><i class="fa-solid fa-user"></i> Owner Information</h2>
+      <p><span class="highlight">Name:</span> John Doe</p>
+      <p><span class="highlight">Phone:</span> <a href="tel:+639123456789">+63 912 345 6789</a></p>
+      <p><span class="highlight">Email:</span> <a href="mailto:johndoe@email.com">johndoe@email.com</a></p>
+    </div>
+
+    <div class="card">
+      <h2><i class="fa-solid fa-dog"></i> Pet Information</h2>
+      <p><span class="highlight">Name:</span> Buddy</p>
+      <p><span class="highlight">Breed:</span> Golden Retriever</p>
+      <p><span class="highlight">Allergies:</span> None</p>
+      <p><span class="highlight">Medical Needs:</span> Heart medication daily</p>
+    </div>
+
+    <div class="card">
+      <h2><i class="fa-solid fa-stethoscope"></i> Veterinarian Contact</h2>
+      <p><span class="highlight">Name:</span> Dr. Smith</p>
+      <p><span class="highlight">Phone:</span> <a href="tel:+639987654321">+63 998 765 4321</a></p>
+    </div>
+
+    <button id="sendLocationBtn"><i class="fa-solid fa-location-dot"></i> Send My Location to Owner</button>
+    <p id="status"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
